@@ -1,0 +1,87 @@
+
+.header {
+    background-color: lightgray;
+    color: black;
+    font-size: 180vw; 
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+  }
+
+  body {
+      background-color: white;
+      background-image: url("3.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: 100%;
+  }
+
+  #resultContainer {
+      background-image: url("1.png");
+  }
+
+  #resultContainer2 {
+      background-image: url("1.png");
+  }
+
+.jumbotron {
+    background-image: url("hobby.png");
+    background-size: cover;
+    position: relative;
+    height: 300px;
+}
+
+.search { /*
+    border: 1px solid #bdbdbd;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem; */
+}
+
+button {
+    background-image: url("hobby.png");
+    margin-left: 41%;
+    color: white;
+}
+
+footer {
+    background-image: url("hobby.png");
+    color: white;
+}
+
+#clicks {
+    text-align: center;
+    color: white;
+}
+
+#youtube {
+    border-style: solid;
+    border-color: lightgray;
+    padding: 30px;
+    color: lightgray;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 4px #888888;
+}
+
+.yelp {
+    border: 1px solid;
+    border-color: lightgray;
+    padding: 30px;
+    color: lightgray;
+    text-align: center;
+    box-shadow: 5px 10px 4px #888888;
+    
+}
+
+#hobbySearch, #locationSearch, #storeSearch {
+    color: #b35900;
+}
